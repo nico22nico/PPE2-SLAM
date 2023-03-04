@@ -20,7 +20,6 @@
       <img src="../assets/image/fld.png" alt="fld">
       <h1>&nbsp; PsychoQuizz - Plutôt SLAM où SISR ?</h1>
     </header>
-    <div class="blue-line"></div>
 
     <!--Création du rectangle central-->
 
@@ -47,6 +46,9 @@
             Autre
           </label>
         </div>
+
+        <!-- Volet déroulant selection origine -->
+
         <label for="select-bac"><h3>Sélectionnez votre bac/université d'origine :</h3></label>
         <select name="IDORIGINE" id="IDORIGINE" required>
           <option value="">- Veuillez sélectionner un bac/université -</option>
@@ -66,9 +68,10 @@
 
         <!--Soumettre les informations (sexe et IDORIGINE)-->
 
-        <button type="submit" name="submit">Commencer le PsychoQuizz</button>   
+        <button id="boutonSubmitQuizz" type="submit" name="submit">Commencer le PsychoQuizz</button>   
 
       </form>
     </div>
+    <footer></footer>
   </body>
 </html>

@@ -20,7 +20,7 @@ try {
 
 // Vérification que les données ont été envoyées via la méthode POST
 
-if (isset($_POST['sexe']) && isset($_POST['IDORIGINE'])) {
+if (isset($_POST['sexe']) && isset($_POST['IDORIGINE']))
 
     // Récupération des données (sexe et origine), ajout automatique de l'année
 
@@ -36,13 +36,9 @@ if (isset($_POST['sexe']) && isset($_POST['IDORIGINE'])) {
 
     $stmt->execute(array(':IDORIGINE' => $IDORIGINE, ':sexe' => $sexe, ':annee' => $annee));
 
-    echo "Les informations ont été enregistrées dans la table sonde !";  //Rajouter location
-} else {
-    echo "Erreur: des données sont manquantes";
-}
+    // Redirection vers une autre page
+header("Location: ../front_end/questions.php");
+exit();
 
 // Fermeture de la connexion PDO
-
 $conn = null;
-
-?>

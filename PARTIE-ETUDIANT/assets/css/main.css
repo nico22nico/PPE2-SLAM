@@ -28,16 +28,12 @@ h2 {
 	font-family: arial;
 	color: rgb(255, 255, 255);
 	margin: 10px;
-
 }
 h3 {
 	font-weight: 1500;
 	font-family: arial;
 	color: rgb(255, 255, 255);
 	text-align: center;
-}
-label {
-	background-color: rgb(217, 217, 217);
 }
 
 /* Balise pour les titres dans le header */
@@ -164,3 +160,64 @@ label {
     margin-top: -40px;
     text-align:center
   }
+  .btnOui {
+    background-color: white;
+  border: 2px solid rgb(34, 170, 0);
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 30px;
+  }
+  .btnNon {
+    background-color: white;
+  border: 2px solid red;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 30px;
+  }
+  .container-questions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	color: aqua;
+  }
+  .container-questions h2{
+	font-size: 40px; 
+    color: #ffffff; 
+    -webkit-text-stroke: 1px #1978A5;
+  }
+  .rdb-group2 {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(34, 170, 0);
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 20px;
+}
+.rdbVert{
+	background-color: RGB(0, 255, 0);
+}
+.rdbJauneVert{
+	background-color: RGB(128, 255, 0);
+}
+.rdbJaune{
+	background-color: RGB(255, 255, 50);
+}
+.rdbOrange{
+	background-color:  RGB(255, 165, 0);
+}
+.rdbRouge{
+	background-color: red;
+}
+.btnSuivant {
+	position: absolute;
+	bottom: 120px;
+	right: 10px;
+	margin: 10px;
+}

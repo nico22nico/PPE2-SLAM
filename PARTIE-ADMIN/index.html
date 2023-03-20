@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <!--Titre de la page, description, utilisation d'unicode, importation du css et des images-->
 
@@ -17,7 +17,7 @@
     <!--Création de la banderole du site-->
 
     <header>
-      <img src="assets/image/fld.png" alt="fld">
+      <img src="assets/image/fld.png" alt="https://imageshack.com/i/pmkGydn7p">
       <h1>&nbsp PsychoQuizz - Administrateur</h1>
     </header>
 
@@ -29,11 +29,11 @@
       <!--L'identifiant et le mot de passe sont collectées sous le nom de "id_admin" et "mdp_admin"-->
 
       <div class="container-connexion">
-        <label for="id_admin"><h2>Identifiant</h2></label>
+        <label for="id_admin"><h2>Identifiant :</h2></label>
         <input type="text" placeholder="Entrer votre Identifiant" name="id_admin" id="id_admin" required>
       
-        <label for="mdp_admin"><h2>Mot de passe</h2></label>
-        <input type="password" placeholder="Entrer votre mot de passe" name="mdp_admin" id="mdp_admin" required>
+        <label for="mdp_admin"><h2>Mot de passe :</h2></label>
+        <input type="password" placeholder="Entrer votre mot de passe" name="mdp_admin" id="mdp_admin" pattern="(?=.*?[A-Z])(?=.*?[a-z]).{12,}" required>
         <p></p>
         <button type="submit" name="submit">Connexion</button>
       </div>

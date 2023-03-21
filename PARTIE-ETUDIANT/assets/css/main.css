@@ -216,8 +216,11 @@ label {
 	background-color: red;
 }
 .btnSuivant {
-	position: absolute;
-	bottom: 120px;
-	right: 10px;
-	margin: 10px;
+  position: absolute;
+  bottom: 120px;
+  right: 10px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 2px;
 }

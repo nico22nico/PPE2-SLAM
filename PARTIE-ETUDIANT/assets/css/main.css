@@ -86,8 +86,8 @@ h1{
 	width: 400px;
 	background-color: #b4b4b4; 
     position: absolute;
-    top: 41%;
-    left: 60%;
+    top: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
 	border-radius: 50px;
 	text-align: center;
